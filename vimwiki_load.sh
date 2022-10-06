@@ -18,5 +18,5 @@ then
     echo "Incorrect usage: vimwiki_load.sh -n [video number]"
     exit 0
 else
-    add_to_vimwiki.sh -f video_${number}.ipynb -d ~/Documents/vimwiki/Python3/ -i "Machine Learnia YouTube Course.md"
+    add_to_vimwiki.sh -f ${number}_*.ipynb -d ~/Documents/vimwiki/Python3/ -i "Python3.md"
 fi
