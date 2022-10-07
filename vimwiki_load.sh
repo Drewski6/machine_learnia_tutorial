@@ -16,7 +16,8 @@ done
 if [ "${number}" = "" ]
 then
     echo "Incorrect usage: vimwiki_load.sh -n [video number]"
-    exit 0
+    exit 1
 else
-    add_to_vimwiki.sh -f ${number}_*.ipynb -d ~/Documents/vimwiki/Python3/ -i "Python3.md"
+    add_to_vimwiki.sh -f ${number}_*.ipynb -d ~/Documents/vimwiki/Python3/machine_learnia_ml_tutorial -i "machine_learnia_ml_tutorial.md"
 fi
+
